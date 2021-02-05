@@ -7,7 +7,7 @@ export const FacetCards = (props) => {
 
   function toggleFilter() {
     setShow(show === "facet__hidden" ? "facet__section" : "facet__hidden");
-    setMoreOrLess(moreOrLess === "More" ? "Less" : "Less");
+    setMoreOrLess(moreOrLess === "More" ? "Less" : "More");
   }
 
   const showfewItem = (index, minItemToShow, show) => {
