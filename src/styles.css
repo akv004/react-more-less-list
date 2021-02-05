@@ -2,3 +2,17 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.facet__section {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0.4em #ccc;
+}
+
+.facet__hidden {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0.4em #ccc;
+  height: 0px;
+  visibility: hidden;
+}
