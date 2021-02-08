@@ -26,7 +26,12 @@ export const Facet = (props) => {
     <div>
       <h4>{facet.displayName}</h4>
       {facet.values.map((value, ind) => (
-        <div className={showFew(ind, 2, show)}>{value.value}</div>
+        <div className={showFew(ind, 2, show)}>
+          <div>
+            <input type="checkbox" />
+            <label>{value.value}</label>
+          </div>
+        </div>
       ))}
       <button onClick={toggleFilter}>{moreOrLess}</button>
     </div>
